@@ -1,0 +1,41 @@
+v0.1.X
+**************** >= should do these below **********************
+change from: CONFIG_DEFAULT_luci-app-cpufreq=y
+         to: CONFIG_DEFAULT_luci-app-cpufreq=n
+**************** >= should do these above **********************
+================================================================
+Rockchip
+FriendlyARM NanoPC T6
+tar.gz
+	---- Create a journaling filesystem
+(64) Kernel partition size (in MiB)
+(960) Root filesystem partition size (in MiB)
+	---- luci-app-cpufreq
+luci-app-diskman
+luci-app-dockerman
+Include mdadm
+Include kmod-md-raid456
+Include kmod-md-linear
+luci-app-dockerman
+luci-app-passwall
+	---- Include Shadowsocks Rust Client
+Include Hysteria
+Include NaiveProxy
+Include ShadowsocksR Libev Server
+Include tuic-client
+Include V2ray_Geodata
+Include Xray-Plugin (Shadowsocks Plugin)
+	---- Include rclone-webui
+	---- Include rclone-ng (another webui)
+luci-app-samba4
+luci-app-statistics
+luci-app-ttyd
+luci-app-turboacc
+kmod-nft-fullcone
+luci-ssl-openssl
+Minify Lua sources
+Traditional Chinese (zh_Hant) 
+	---- luci-lib-ipkg
+	---- default-settings-chn
+	---- default-settings
+
