@@ -1,7 +1,11 @@
 v0.1.X
 **************** >= should do these below **********************
+change from: CONFIG_DEFAULT_luci-lib-ipkg=y
+         to: CONFIG_DEFAULT_luci-lib-ipkg=n
 change from: CONFIG_DEFAULT_luci-app-cpufreq=y
          to: CONFIG_DEFAULT_luci-app-cpufreq=n
+change from: CONFIG_DEFAULT_default-settings-chn=y
+         to: CONFIG_DEFAULT_default-settings-chn=n
 **************** >= should do these above **********************
 ================================================================
 Rockchip
@@ -35,7 +39,118 @@ kmod-nft-fullcone
 luci-ssl-openssl
 Minify Lua sources
 Traditional Chinese (zh_Hant) 
-	---- luci-lib-ipkg
 	---- default-settings-chn
 	---- default-settings
+	---- luci-lib-ipkg
 
+v0.2.X
+**************** >= should do these below **********************
+change from: CONFIG_PCAP_DNSPROXY_LISTENPORT=1053
+         to: #CONFIG_PCAP_DNSPROXY_LISTENPORT is not set
+**************** >= should do these above **********************
+================================================================
+Elliptic curve cryptography (ECC)
+Elliptic curve cryptography (ECC), full support
+	---- U2F/FIDO support
+	---- Enable agent forwarding in dbclient [LEGACY/SECURITY]
+	---- Enable agent forwarding [LEGACY/SECURITY]
+ucert-full
+wireless-tools
+htop
+diffutils
+rtl8852be-firmware
+kmod-rtw89-8852be
+ffmpeg
+moc
+7z
+zstd
+nvme-cli
+kmod-nvme
+hexedit
+vim
+Build with zstd support
+resize2fs
+bash
+zsh
+tmux
+adb
+bluez-tools
+collectd-mod-disk
+collectd-mod-sensors
+collectd-mod-tcpconns
+collectd-mod-thermal
+coreutils-nproc
+coreutils-sha512sum
+coreutils-who
+dos2unix
+file
+getopt
+hwinfo
+irqbalance
+jq
+less
+lm-sensors-detect
+losetup
+lrzsz
+lscpu
+lsof
+maccalc
+pciutils
+pv
+qrencode
+sipcalc
+tree
+unix2dos
+usbutils
+yq
+rsync
+Enable zstd stream compression
+	---- Build with libpcap support.(Strongly recommended) 
+	---- Build with libsodium support.(Recommended)
+	---- Build with TLS support.(Recommended)
+nmap
+ncat
+ss
+openssh-sftp-server
+git-http
+wpad-basic
+wpa-cli
+fail2ban
+fping
+iftop
+iperf3
+iw-full
+	---- iw
+lynx
+	---- NetBIOS support
+tcpdump
+v2ray-core
+v2ray-extra
+kmod-hid-generic
+kmod-input-uinput
+kmod-mmc
+kmod-sound-hda-core
+kmod-sound-hda-codec-hdmi
+kmod-sound-soc-core
+kmod-usb-audio
+kmod-usb-hid
+kmod-usb-ohci
+kmod-usb-printer
+kmod-usb-uhci
+kmod-usb2
+kmod-usb3
+kmod-backlight-pwm
+kmod-drm-buddy
+kmod-drm-panfrost
+kmod-drm-rockchip
+kmod-drm-ttm
+kmod-vhost-net
+patch
+logrotate
+libdrm
+sbc
+kmod-hwmon-drivetemp
+kmod-hwmon-pwmfan
+libsoc
+kmod-zram
+ZRAM Default compressor (zstd)
